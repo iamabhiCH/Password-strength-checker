@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 400px;
+    padding: 16px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#password{
+    outline: none;
+}
